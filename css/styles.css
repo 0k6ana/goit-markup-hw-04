@@ -104,6 +104,7 @@ img {
   color: #404bbf;
 }
 .navigation-menu::after {
+  content: "";
   width: 100%;
   position: absolute;
   left: 0;
