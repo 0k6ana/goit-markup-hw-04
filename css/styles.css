@@ -360,7 +360,7 @@ img {
 .portfolio-name-text:hover {
   transform: translateY(0%);
 }
-.our-portfolio {
+.our-portfolio-container {
   position: relative;
   overflow: hidden;
 }
