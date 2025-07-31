@@ -132,6 +132,7 @@ img {
 
 /*section1 hero*/
 .hero {
+  max-width: 1440px;
   background-color: #2e2f42;
   padding: 188px 0;
 
@@ -280,11 +281,11 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-item {
   width: 40px;
   height: 40px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
   fill: #f4f4fd;
@@ -325,11 +326,14 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
-.portfolio-list-item.hover {
+.our-portfolio-conainer {
+  width: 360px;
+  height: 300px;
+}
+.portfolio-list-item:hover {
   transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
@@ -360,7 +364,7 @@ img {
 .portfolio-name-text:hover {
   transform: translateY(0%);
 }
-.our-portfolio-container {
+.our-portfolio-conainer {
   position: relative;
   overflow: hidden;
 }
