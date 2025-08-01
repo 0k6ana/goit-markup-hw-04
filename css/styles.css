@@ -370,7 +370,7 @@ img {
 .portfolio-name-text:hover {
   transform: translateY(0%);
 }
-.our-portfolio-conainer {
+.our-portfolio-container {
   position: relative;
   overflow: hidden;
 }
