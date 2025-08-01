@@ -297,7 +297,6 @@ img {
 .social-item {
   width: 40px;
   height: 40px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
   fill: #f4f4fd;
@@ -310,10 +309,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.social-links:hover,
-.social-links:focus {
-  background-color: #404bbf;
 }
 
 /* section4 our portfolio*/
@@ -339,8 +334,6 @@ img {
   row-gap: 48px;
 }
 .our-portfolio-conainer {
-  width: 360px;
-  height: 300px;
 }
 .portfolio-list-item:hover {
   transform: translateY(0%);
@@ -349,13 +342,11 @@ img {
 }
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-apps {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  transform: translateY(0%);
 }
 
 .portfolio-name {
@@ -391,8 +382,6 @@ img {
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
-  transform: translateY(100%);
-  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*footer*/
