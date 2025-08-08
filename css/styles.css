@@ -292,6 +292,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 .social-list {
   display: flex;
@@ -429,11 +430,8 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  max-width: 264px;
 }
-.footer-social {
-  margin-left: 120px;
-}
+
 .social-icon-footer {
   fill: #f4f4fd;
 }
