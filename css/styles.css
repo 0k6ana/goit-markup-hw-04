@@ -466,3 +466,18 @@ img {
 .social-links-footer:focus {
   background-color: #31d0aa;
 }
+.form-footer {
+  width: 264px;
+  height: 40px;
+}
+.form-label {
+  margin-left: 80px;
+  margin-right: 24px;
+}
+.text-form {
+  margin-left: 80px;
+  padding-bottom: 16px;
+}
+.form-button {
+  background-color: #4d5ae5;
+}
